@@ -16,6 +16,10 @@ export interface Project {
   technologies: string[];
   githubUrl: string;
   liveUrl?: string;
+  year?: string;
+  category?: string;
+  accent?: 'pink' | 'lime' | 'sky' | 'amber' | 'violet' | 'lemon';
+  award?: string;
 }
 
 export interface SocialLink {
